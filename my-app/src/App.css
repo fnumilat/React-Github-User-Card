@@ -36,3 +36,100 @@
     transform: rotate(360deg);
   }
 }
+
+/* Located at UserCard.js */
+
+.My-User-Section {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3%;
+  background-color: #FF991D;
+  padding-top: 3%;
+}
+
+.My-User-Image-Section {
+  width: 50%;
+  margin-left: 3%;
+}
+
+.My-Image {
+  width: 80%;
+  border-radius: 500px 500px;
+}
+
+.My-User-Details-Section {
+  margin-left: -2%;
+}
+
+.My-User-Name {
+  font-size: 55px;
+  margin-bottom: -.10%;
+}
+
+.My-User-Details {
+  width: 60%;
+  margin-bottom: -.5%;
+  font-size: 25px;
+}
+
+.My-User-Details-Button {
+  margin-top: 3%;
+  width: 22%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.My-User-Details-Button:hover {
+  background-color: #19212e;
+  color: white;
+}
+
+/* Located at FollowersCard.js */
+
+.Followers-Title {
+  margin-left: 40%;
+  margin-top: 5%;
+  font-size: 50px;
+}
+
+.Followers-Section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 14%;
+}
+
+.Follower-Box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.Followers-Image {
+  width: 60%;
+  border-radius: 500px 500px;
+}
+
+.Followers-Details {
+  margin-right: 40%;
+  text-align: center;
+}
+
+.Followers-Details-Button {
+  margin-left: 11%;
+  width: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 19px;
+  border-radius: 20px;
+  background-color:  #19212e;
+  color: white;
+}
+
+.Followers-Details-Button:hover {
+  background-color: red;
+  color: white;
+}

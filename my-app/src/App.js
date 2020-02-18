@@ -37,7 +37,7 @@ class App extends Component {
   render() {
 
     return(
-      <div>
+      <div className="Main-Container">
         <UserCard user={this.state.user}/>
         <FollowersCard followers={this.state.followers}/>
       </div>
